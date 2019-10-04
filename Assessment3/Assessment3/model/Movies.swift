@@ -21,7 +21,7 @@ struct MovieQuery: Decodable {
     }
     
     let title: String
-    let vote: Int
+    let vote: Double
     let overview: String
-    let image: String
+    let image: String?
 }

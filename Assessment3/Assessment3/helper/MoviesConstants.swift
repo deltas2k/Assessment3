@@ -11,10 +11,10 @@
 import Foundation
 
 struct MoviesConstants {
-    let baseURL = "https://api.themoviedb.org/3/search/"
-    let urlComponent1 = "movie"
-    let urlQuery1key = "api_key"
-    let apiKey = "4a40c8425d1279ead340f563465c0a7c"
-    let urlQuery2key = "query"
-    let posterURL = "http://image.tmdb.org/t/p/w500/"
+    static let baseURL = "https://api.themoviedb.org/3/search/"
+    static let urlComponent1 = "movie"
+    static let urlQuery1key = "api_key"
+    static let apiKey = "4a40c8425d1279ead340f563465c0a7c"
+    static let urlQuery2key = "query"
+    static let posterURL = "http://image.tmdb.org/t/p/w500/"
 }
