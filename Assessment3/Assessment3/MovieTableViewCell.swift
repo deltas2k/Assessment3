@@ -11,7 +11,10 @@ import UIKit
 class MovieTableViewCell: UITableViewCell {
     var movies: MovieQuery? {
         didSet {
-            updateViews()
+            DispatchQueue.main.async {
+                self.updateViews()
+            }
+            
             
         }
     }
